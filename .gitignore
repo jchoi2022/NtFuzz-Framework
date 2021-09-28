@@ -1,0 +1,33 @@
+# Rider
+.idea/
+
+# Python
+*.pyc
+
+# vim
+*.swp 
+*.swo
+
+# Build
+bin/
+obj/
+build/
+
+# Visual Studio
+.vs
+
+# Fuzzing inputs
+box/
+tasks/
+apps*.txt
+codebase/
+Hooker/
+Types/
+symbols/
+backups/
+knowns*.txt
+
+# Raw data 
+*.ovf
+*.vmdk
+*.mf

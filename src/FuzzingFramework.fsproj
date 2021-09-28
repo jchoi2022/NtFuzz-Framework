@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Core/Literal.fs" />
+    <Compile Include="Core/Paths.fs" />
+    <Compile Include="Core/Utils.fs" />
+    <Compile Include="Core/Action.fs" />
+    <Compile Include="Core/Signal.fs" />
+    <Compile Include="Core/Crash.fs" />
+    <Compile Include="Core/CDB.fs" />
+    <Compile Include="Core/VirtualMachine.fs" />
+    <Compile Include="Fuzzing/Config.fs" />
+    <Compile Include="Fuzzing/Seed.fs" />
+    <Compile Include="Fuzzing/Guest.fs" />
+    <Compile Include="Fuzzing/Host.fs" />
+    <Compile Include="Main/Main.fs" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,1 @@
+VBoxManage startvm %1
